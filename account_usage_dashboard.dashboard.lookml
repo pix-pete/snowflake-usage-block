@@ -458,7 +458,7 @@
     filters:
       warehouse_metering_history.start_date: 1 months
     sorts: [warehouse_metering_history.warehouse_name 0, warehouse_metering_history.start_date]
-    limit: 500
+    limit: 12
     total: true
     query_timezone: UTC
     color_application:
@@ -479,9 +479,9 @@
     x_axis_reversed: false
     y_axis_reversed: false
     plot_size_by_field: false
-    trellis: ''
+    trellis: pivot
     stacking: ''
-    limit_displayed_rows: false
+    limit_displayed_rows: true
     legend_position: center
     series_types: {}
     point_style: circle
