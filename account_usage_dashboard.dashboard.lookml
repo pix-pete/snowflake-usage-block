@@ -498,7 +498,7 @@
     interpolation: linear
     listen: {}
     row: 8
-    # col: 12
+    col: 12
     width: 11
     height: 8
   - title: Credits Used By Warehouse
