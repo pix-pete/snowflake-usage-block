@@ -458,7 +458,7 @@
     filters:
       warehouse_metering_history.start_date: 1 months
     sorts: [warehouse_metering_history.warehouse_name 0, warehouse_metering_history.start_date]
-    limit: 12
+    limit: 500
     total: true
     query_timezone: UTC
     color_application:
@@ -481,7 +481,7 @@
     plot_size_by_field: false
     trellis: pivot
     stacking: ''
-    limit_displayed_rows: true
+    limit_displayed_rows: false
     legend_position: center
     series_types: {}
     point_style: circle
@@ -498,7 +498,7 @@
     interpolation: linear
     listen: {}
     row: 8
-    col: 12
+    # col: 12
     width: 11
     height: 8
   - title: Credits Used By Warehouse
